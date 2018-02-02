@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pro.istiyak.counterdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/textView_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:text="0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_count"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:background="#07b494"
+        android:padding="20sp"
+        android:text="Click"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_count"
+        android:layout_alignStart="@+id/button_count"
+        android:layout_below="@+id/button_count"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="64dp"
+        android:background="#da0906"
+        android:padding="10sp"
+        android:text="Reset"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+</RelativeLayout>
